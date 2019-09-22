@@ -36,7 +36,7 @@ body > * {
 }
 
 .presentation {
-  background-image: url("utilities/samson-creative-ZGjbiukp_-A-unsplash@2x.png");
+  background-image: url("images/samson-creative-ZGjbiukp_-A-unsplash@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -77,7 +77,7 @@ body > * {
 
 .who-text {
     position: absolute;
-    top: 101%;
+    top: 102%;
     left: 2%;
     color: white;
     font-size: 3rem;
@@ -107,8 +107,118 @@ body > * {
   position: relative;
   height: 70px;
   width: 250px;
-  border-color: #27C5BD!important;
+  border-color: #2FEBBB!important;
   border-width: 5px!important;
   right: -70vw;
   top: 190%;
+}
+
+.feature-title{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.feature-subtitle{
+  font-size: 1.3rem;
+}
+
+.feature-content{
+  font-size: 0.8rem;
+}
+
+.feature-btn{
+  position: relative;
+  background-color: #27C5BD;
+  color: white;
+  border-radius: 0;
+  font-size: 0.8rem!important;
+  margin-top: 14%;
+}
+
+.feature-btn::after{
+  margin-right: auto;
+  font-family: 'Material Icons';
+  content: "arrow_right_alt";
+}
+
+.feature1-img{
+  background-image: url("/images/kelly-sikkema-1484283-unsplash.jpg");
+  height: 300px;
+  width: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature2-img{
+  background-image: url("/images/kelly-sikkema-1484283-unsplash.jpg");
+  height: 300px;
+  width: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature3-img{
+  background-image: url("/images/kelly-sikkema-1484283-unsplash.jpg");
+  height: 300px;
+  width: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature4-img{
+  background-image: url("/images/kelly-sikkema-1484283-unsplash.jpg");
+  height: 300px;
+  width: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature5-img{
+  background-image: url("/images/kelly-sikkema-1484283-unsplash.jpg");
+  height: 300px;
+  width: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature6-img{
+  background-image: url("/images/kelly-sikkema-1484283-unsplash.jpg");
+  height: 300px;
+  width: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature7-img{
+  background-image: url("/images/kelly-sikkema-1484283-unsplash.jpg");
+  height: 300px;
+  width: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.horizontal-line{
+  display: inline-block;
+  background: black;
+  height: 8px;
+  width: 25%;
+}
+
+.horizontal-line2{
+  display: inline-block;
+  background: black;
+  height: 8px;
+  width: 25%;
 }
