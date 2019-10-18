@@ -36,30 +36,30 @@ body > * {
 }
 
 .presentation {
+  position: relative;
   background-image: url("images/samson-creative-ZGjbiukp_-A-unsplash@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: 650px;
 }
 
 .presentation > img {
   position: relative;
-  height: 70%;
+  width: 70%;
 }
 
 .presentation-text {
   position: absolute;
-  width: 100%;
   top: 30%;
-  left: -40%;
-  margin: auto;
-  transform: rotate(-90deg);
+  left: -30%;
+  margin-right: 10%;
   color: black;
-  font-size: 45px;
+  font-size: 2rem;
+  transform: rotate(-90deg);
 }
 
-.experiment {
+.try-btn {
   background-color: black;
   color: white;
   font-weight: bold;
@@ -71,36 +71,30 @@ body > * {
   border-radius: 0;
 }
 
-.who-section {
-    height: 23rem;
-}
-
-.who-text {
+.who-title {
     position: absolute;
-    top: 102%;
-    left: 2%;
+    margin-top: -10%;
+    margin-left: 0;
     color: white;
     font-size: 3rem;
     z-index: 2;
+    text-shadow: black 0 0.5px;
 }
 
 .who-box {
-    position: absolute;
-    top: 105%;  
+    position: relative;
     background-color: black;
-    width: 80%;
-    height: 40%;
+    margin: 0 auto;
     text-align: start;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 
 .circle-filled{
-  position: absolute;
+  position: relative;
   height: 70px;
   width: 250px;
   background: #27C5BD;
-  left: -10%;
-  top: 160%;
+  left: -30%;
 }
 
 .circle-outline{
@@ -109,10 +103,9 @@ body > * {
   width: 250px;
   border-color: #2FEBBB!important;
   border-width: 5px!important;
-  right: -70vw;
-  top: 190%;
+  right: -70%;
 }
-
+/*
 .feature-title{
   font-size: 1rem;
   font-weight: bold;
@@ -221,4 +214,4 @@ body > * {
   background: black;
   height: 8px;
   width: 25%;
-}
+} */
