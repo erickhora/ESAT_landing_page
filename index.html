@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>ESAT - Orçamentos Rápidos e Precisos</title>
 </head>
 <body>
@@ -33,7 +34,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="">
                     <div class="tiny-rectangle"></div>                    
-                    ENTRAR
+                    CONTATO
                 </a>
             </li>
         </ul>
@@ -42,8 +43,8 @@
     <div class="d-flex flex-column">
         <!-- Apresentação -->
         <div class="presentation text-white">
-            <img src="utilities/grupo_160.svg" alt="">
-            <p class="presentation-text">/ / O R Ç A M E N T O</p>
+            <img src="images/grupo_160.png" alt="">
+            <!-- <p class="presentation-text">/ / O R Ç A M E N T O</p> -->
             <div class="d-flex justify-content-end">
                 <button class="mt-5 p-4 btn try-btn">Experimentar</button>
                 <i class="material-icons p-4 mt-5 btn arrow">arrow_right_alt</i>
@@ -76,40 +77,40 @@
             </p> 
             <div class="border rounded-pill circle-outline"></div>
         </div>
-        <!-- Feature 1 - Cruzamento
+        <!-- Feature 1 - Acesso à Fornecedores e Insumos -->
         <div class="bg-white text-black d-flex justify-content-between">
             <div class="feature1-img"></div>
             <div class="ml-4">
-                <p class="feature-title">ECONOMIZE TEMPO</p>
-                <p class="feature-subtitle">Estimativa de orçamento um clique</p>
+                <p class="feature-title">NÃO PERCA TEMPO PROCURANDO</p>
+                <p class="feature-subtitle">Acesso à base de Fornecedores e Insumos</p>
                 <p class="feature-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iste dolore nobis dolorum consectetur ex, placeat omnis dignissimos neque cupiditate! Harum quia iure deleniti quaerat voluptates ipsum</p>
-                <div class="btn feature-btn">QUEROU POUPAR TEMPO</div>
+                <div class="btn feature-btn">QUERO POUPAR TEMPO</div>
             </div>
         </div>
-        <!-- Feature 2 - Histórico de Versões
+        <!-- Feature 2 - Acompanhamento de Orçamentos -->
         <div class="mt-4 bg-white text-black d-flex justify-content-between">
             <div class="ml-3 mr-4">
-                <p class="feature-title">SAIBA TUDO</p>
-                <p class="feature-subtitle">Veja todas as alterações no orçamento</p>
+                <p class="feature-title">CONTROLE TODOS OS GASTOS</p>
+                <p class="feature-subtitle">Tenha total controle do seu orçamento</p>
                 <p class="feature-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iste dolore nobis dolorum consectetur ex, placeat omnis dignissimos neque cupiditate! Harum quia iure deleniti quaerat voluptates ipsum</p>
-                <div class="btn feature-btn">QUEROU POUPAR TEMPO</div>
+                <div class="btn feature-btn">QUERO TER CONTROLE</div>
             </div>
             <div class="feature2-img"></div>
         </div>
-        <!-- Feature 3 - Acompanhamento de Orçamentos
+        <!-- Feature 3 - Histórico de Versões -->
         <div class="mt-4 bg-white text-black d-flex justify-content-between">
             <div class="feature3-img"></div>
             <div class="ml-4">
-                <p class="feature-title">ECONOMIZE TEMPO</p>
-                <p class="feature-subtitle">Estimativa de orçamento um clique</p>
+                <p class="feature-title">SUPERVISIONE ALTERAÇÕES NO ORÇAMENTO</p>
+                <p class="feature-subtitle">Saiba todas as alterações que foram feitas</p>
                 <p class="feature-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iste dolore nobis dolorum consectetur ex, placeat omnis dignissimos neque cupiditate! Harum quia iure deleniti quaerat voluptates ipsum</p>
-                <div class="btn feature-btn">QUEROU POUPAR TEMPO</div>
+                <div class="btn feature-btn">QUERO SABER TUDO</div>
             </div>
         </div>
-        <!-- Feature 4 - Plug-ins
+        <!-- Feature 4 - Plug-ins -->
         <div class="mt-4 bg-white text-black d-flex justify-content-between">
             <div class="ml-3 mr-4">
-                <p class="feature-title">SAIBA TUDO</p>
+                <p class="feature-title">ENCAMINHE REQUISIÇÕES E PEDIDOS DE COMPRA</p>
                 <p class="feature-subtitle">Veja todas as alterações no orçamento</p>
                 <p class="feature-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iste dolore nobis dolorum consectetur ex, placeat omnis dignissimos neque cupiditate! Harum quia iure deleniti quaerat voluptates ipsum</p>
                 <div class="btn feature-btn">QUEROU POUPAR TEMPO</div>
@@ -146,21 +147,86 @@
                 <div class="btn feature-btn">QUEROU POUPAR TEMPO</div>
             </div>
         </div>
-        <!-- NOSSO TIME
+    -->
+        <!-- NOSSO TIME -->
         <div class="mt-5 bg-white text-black">
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="mb-5 d-flex justify-content-between align-items-center">
                 <span class="horizontal-line"></span>
                 <div class="team">NOSSO TIME</div>
                 <span class="horizontal-line2"></span>
             </div>
-            <!-- Carrousel
-            <div class="carousel"></div>
+            <!-- Carrousel -->
+            <div class="container-fluid">
+                <div id="carouselExample" class="carouselPrograms carousel slide" data-ride="carousel" data-interval="false">
+                    <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                        <div class="carousel-item col-md-4  active">
+                           <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#" title="image 1" class="thumb">
+                                  <img class="img-fluid mx-auto d-block" src="images/Grupo 161.png" alt="slide 1">
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-4 ">
+                           <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#" title="image 3" class="thumb">
+                                 <img class="img-fluid mx-auto d-block" src="images/Grupo 161.png" alt="slide 2">
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-4 ">
+                           <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#" title="image 4" class="thumb">
+                                 <img class="img-fluid mx-auto d-block" src="images/Grupo 161.png" alt="slide 3">
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-md-4 ">
+                            <div class="panel panel-default">
+                              <div class="panel-thumbnail">
+                                <a href="#" title="image 5" class="thumb">
+                                 <img class="img-fluid mx-auto d-block" src="images/Grupo 161.png" alt="slide 4">
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <!-- Formulário
-        <div class="p-3 bg-white text-black">.bg-secondary</div>
-        <!-- Footer
-        <div class="p-3 bg-secondary text-white">.bg-secondary</div>
-        -->
+
+        <!-- Formulário -->
+        <div class="p-3 form-box text-black">
+            <p class="form-title">PRECISA DE UMA AJUDA OU UMA DEMONTRAÇÃO?</p>
+            <p class="form-subtitle">Marque um agendamento ou nos envia suas dúvidas, sugestões, críticas e feedbacks.</p>
+            <form action="post">
+                <div class="form-emal">
+                    <input type="email" id="emailFormInput" placeholder="E-mail">
+                </div>
+                <div class="form-subject">
+                    <input type="text" id="subjectFormInput" placeholder="Assunto">
+                </div>
+                <div class="form-content">
+                    <textarea type="email" id="contentFormInput" rows="4" placeholder="Escreva algo...">
+                </div>
+            </form>
+        </div>
+        
+        <!-- Footer -->
+        <!-- <div class="p-3 bg-secondary text-white">.bg-secondary</div> -->
     </div>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

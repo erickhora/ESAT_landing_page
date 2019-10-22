@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="946" height="1213" viewBox="0 0 946 1213">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        opacity: 0.49;
+      }
+
+      .cls-3 {
+        font-size: 54px;
+        letter-spacing: 0.012em;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: Bahnschrift;
+      }
+
+      .cls-4 {
+        font-size: 98px;
+        font-weight: 700;
+        letter-spacing: 0.213em;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_160" data-name="Grupo 160" transform="translate(0 -347)">
+    <path id="Subtração_3" data-name="Subtração 3" class="cls-1" d="M-1224.061,1091.606H-1990V0h765.939V375.671h-179.957v180h179.957V1091.6Z" transform="translate(1990 347)"/>
+    <g id="Grupo_133" data-name="Grupo 133" class="cls-2" transform="translate(602.072 1618.174)">
+      <text id="Rápido_preciso_atualizado" data-name="Rápido
+preciso 
+atualizado" class="cls-3" transform="translate(-316 -496)"><tspan x="0" y="43">RÁPIDO</tspan><tspan x="0" y="119">PRECISO </tspan><tspan x="0" y="195">ATUALIZADO</tspan></text>
+    </g>
+    <text id="_ORÇAMENTO" data-name="//ORÇAMENTO" class="cls-4" transform="translate(152 1365) rotate(-90)"><tspan x="0" y="0">//ORÇAMENTO</tspan></text>
+    <rect id="Retângulo_131" data-name="Retângulo 131" class="cls-1" width="452" height="33" transform="translate(0 1527)"/>
+    <rect id="Retângulo_136" data-name="Retângulo 136" class="cls-1" width="180" height="180" transform="translate(766 723)"/>
+  </g>
+</svg>
