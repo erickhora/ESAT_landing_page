@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/abb830c5b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>ESAT - Orçamentos Rápidos e Precisos</title>
@@ -210,23 +211,45 @@
 
         <!-- Formulário -->
         <div class="p-3 form-box text-black">
-            <p class="form-title">PRECISA DE UMA AJUDA OU UMA DEMONTRAÇÃO?</p>
-            <p class="form-subtitle">Marque um agendamento ou nos envia suas dúvidas, sugestões, críticas e feedbacks.</p>
+            <div class="d-flex align-itens-center">
+                <p class="form-title">PRECISA DE UMA AJUDA OU UMA DEMONSTRAÇÃO?</p>
+                <p class="form-subtitle">Marque um agendamento ou nos envia suas dúvidas, sugestões, críticas e feedbacks.</p>
+            </div>
             <form action="post">
-                <div class="form-emal">
-                    <input type="email" id="emailFormInput" placeholder="E-mail">
+                <div class="form-group input-group flex-nowrap">
+                    <div class="input-group-prepend d-flex align-items-center">
+                        <span class="material-icons ml-2">email</span>
+                    </div>
+                    <input type="email" class="form-control" id="emailFormInput" placeholder="E-mail">
+                    <!-- <small>Não iremos divulgar seu email</small> -->
                 </div>
-                <div class="form-subject">
-                    <input type="text" id="subjectFormInput" placeholder="Assunto">
+                <div class="form-group input-group flex-nowrap">
+                    <div class="input-group-prepend d-flex align-items-center">
+                        <span class="material-icons ml-2">email</span>
+                    </div>
+                    <input type="text" class="form-control" id="subjectFormInput" placeholder="Assunto">
                 </div>
-                <div class="form-content">
-                    <textarea type="email" id="contentFormInput" rows="4" placeholder="Escreva algo...">
+                <div class="form-group">
+                    <textarea type="email" class="form-control" id="contentFormInput" rows="4" placeholder="Escreva algo..."></textarea>
                 </div>
+                <button type="submit" class="btn form-btn">ENVIAR</button>
             </form>
         </div>
         
         <!-- Footer -->
-        <!-- <div class="p-3 bg-secondary text-white">.bg-secondary</div> -->
+        <div class="p-3 contact-section text-white">
+            <p style="font-size: 2rem; text-align: center;">CONTATO</p>
+            <p style="font-size:1.5rem; margin: 0; text-align: center;">E-mail:</p>
+            <p style="color: #DADADA; text-align: center;">contato@esat.cc</p>
+            <span style="font-size: 3rem;" class="d-flex justify-content-center">
+                <a href="https://www.instagram.com/esat.cc">
+                    <i class="fab fa-instagram mr-5"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/esatt1">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </span>
+        </div>
     </div>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
