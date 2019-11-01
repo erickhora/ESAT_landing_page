@@ -54,6 +54,10 @@ body > * {
   width: 90%;
 }
 
+.budget-box {
+  content: url("./images/grupo_160.png");
+}
+
 /* .presentation-text {
   position: absolute;
   top: 30%;
@@ -92,6 +96,17 @@ body > * {
     margin: 0 auto;
     text-align: start;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.number {
+  font-size: 4rem; 
+  position: relative; 
+  margin-bottom: 0;
+}
+
+.number-text {
+  font-size: 1rem; 
+  color: gray;
 }
 
 .circle-filled{
@@ -344,7 +359,302 @@ a{
   color: white;
 }
 
+.footer-logo {
+  display: block;
+  content: url("./images/Logo_ESAT[FundoBranco_PNG]-15.png");
+  height: 40px;
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 20px;
+}
+
 /* div {
   color: #E1E1E1; background: ;
   color: #DADADA; fill: ;
 } */
+
+@media only screen and (min-width: 410px) {
+  .presentation {
+    height: 750px;
+  }
+}
+
+@media only screen and (min-width: 482px) {
+  .presentation {
+    height: 850px;
+  }
+  
+  .form-title{
+    margin-top: -15%;
+  }
+  
+  .form-subtitle{
+    margin-top: -8%;
+  }
+}
+
+/* Extra small devices (phones, 530px and down) */
+@media only screen and (min-width: 530px) {
+  .presentation {
+    height: 950px;
+  }
+
+  .who-title {
+    margin-top: -7%;
+  }
+  
+  .form-title{
+    margin-top: -10%;
+  }
+  
+  .form-subtitle{
+    margin-top: -6%;
+  }
+
+  .circle-filled{
+    left: -20%;
+  }
+
+  .form-btn{
+    right: 6%;
+    margin-top: -8%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 648px and up) */
+@media only screen and (min-width: 648px) {
+  .presentation {
+    height: 1050px;
+  }
+  .circle-filled{
+    left: -15%;
+  }
+
+  .circle-outline{
+    right: -80%;
+  }
+
+  .form-btn{
+    right: 6%;
+    margin-top: -6%;
+  }
+}
+
+/* Medium devices (landscape tablets, 755px and up) */
+@media only screen and (min-width: 755px) {
+  .presentation {
+    height: 750px;
+  }
+
+  .budget-box {
+    content: url("./images/Grupo\ 160@2x.png");
+  }
+
+  .who-title {
+    margin-top: -10%;
+    margin-left: 5%;
+    font-size: 5rem;
+  }
+
+  .who-box {
+    width: 80%;
+    padding: 80px!important;
+    text-align: center;
+  }
+  
+  .circle-filled{
+    position: relative;
+    height: 150px;
+    width: 650px;
+    background: #27C5BD;
+    left: -50%;
+  }
+  
+  .circle-outline{
+    right: -80%;
+  }
+
+  .number {
+    position: absolute;
+    font-size: 6.5rem;
+    margin-top: -12%; 
+    margin-left: 10%;
+  }
+
+  .number-text{
+    font-size: 1.5rem; 
+    color: gray; 
+    margin-top: 10%; 
+    margin-left: 20%; 
+    margin-right: 20%;
+  }
+
+  .form-box {
+    margin-top: 100px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .form-title{
+    margin-top: -10%;
+    margin-left: -15%;
+    font-size: 2.5rem;
+  }
+  
+  .form-subtitle{
+    margin-top: -8%;
+  }
+
+  .footer-order {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .footer-logo {
+    height: 250px;
+    width: 250px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+}
+
+/* Large devices (laptops/desktops, 825px and up) */
+@media only screen and (min-width: 825px) {
+  .presentation {
+    height: 750px;
+  }
+
+  .budget-box {
+    content: url("./images/Grupo\ 160@2x.png");
+  }
+
+  .who-title {
+    margin-top: -9%;
+  }
+
+  .number-text{
+    margin-top: 8%; 
+  }
+
+  .circle-filled{
+    left: -40%;
+  }
+
+  .circle-outline{
+    right: -80%;
+  }
+
+  .form-title{
+    margin-top: -8%;
+  }
+  
+  .form-subtitle{
+    margin-top: -6%;
+  }
+
+  .form-btn{
+    width: 30%;
+    right: 6%;
+    margin-top: -5%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops,905px and up) */
+@media only screen and (min-width: 905px) {
+  .presentation {
+    height: 850px;
+  }
+
+  .who-title {
+    margin-top: -8%;
+    margin-left: 7%;
+  }
+
+  .number {
+    font-size: 7rem;
+    margin-top: -10%; 
+  }
+
+  .number-text{
+    margin-top: 5%; 
+  }
+
+  .form-title{
+    margin-top: -7%;
+  }
+  
+  .form-subtitle{
+    margin-top: -4%;
+  }
+
+  .form-btn{
+    width: 30%;
+    right: 5%;
+    margin-top: -4%;
+  }
+}
+
+@media only screen and (min-width: 1015px) {
+  .who-title {
+    margin-top: -7%;
+    margin-left: 9%;
+  }
+
+  .circle-filled{
+    left: -30%;
+  }
+
+  .form-title{
+    margin-top: -7%;
+  }
+  
+  .form-subtitle{
+    margin-top: -4%;
+  }
+}
+
+
+@media only screen and (min-width: 1124px) {
+  .who-title {
+    margin-top: -6%;
+    margin-left: 9%;
+  }
+
+  .number {
+    font-size: 7.5rem;
+    margin-top: -8%; 
+  }
+
+  .circle-filled{
+    left: -25%;
+  }
+}
+
+
+@media only screen and (min-width: 1280px) {
+  .presentation {
+    height: 1050px;
+  }
+
+  .who-title {
+    margin-top: -5%;
+  }
+
+  .number {
+    font-size: 8rem;
+    margin-top: -8%; 
+  }
+
+  .circle-filled{
+    left: -20%;
+  }
+
+  .form-btn{
+    width: 20%;
+    right: 5%;
+    margin-top: -3%;
+  }
+}
